@@ -114,7 +114,7 @@ do
         Console.WriteLine("\t[8] - Seno");
         Console.WriteLine("\t[9] - Coseno");
         Console.WriteLine("\t[10] - Parte entera de un entero");
-        Console.WriteLine("\t[13] - Maximo");
+        Console.WriteLine("\t[11] - Maximo");
         Console.WriteLine("\t[12] - Minimo");
         if (!int.TryParse(Console.ReadLine(), out operacion))
         {
