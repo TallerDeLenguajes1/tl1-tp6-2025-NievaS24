@@ -143,7 +143,7 @@ do
     {
         case 1:
             resultado = suma(num1, num2);
-            Console.WriteLine($"{num1} + {num2} = {resultado}");
+            Console.WriteLine($"La suma de {num1} y de {num2} es igual a: {resultado}");
             break;
         case 2:
             resultado = resta(num1, num2);
