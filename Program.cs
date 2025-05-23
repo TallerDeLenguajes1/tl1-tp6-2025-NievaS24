@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+/*Console.WriteLine("Hello, World!");
 int a;
 int b;
 
@@ -25,3 +25,16 @@ if (num > 0)
     }
 }
 Console.WriteLine(aux);
+*/
+//Ejercicio 4
+string texto;
+Console.WriteLine("Ingrese un texto");
+texto = Console.ReadLine();
+int longitud = texto.Length;
+Console.WriteLine($"La longitud de {texto} es {longitud}.");
+string texto2;
+Console.WriteLine("Ingrese otro texto");
+texto2 = Console.ReadLine();
+Console.WriteLine($"El texto concatenado queda {texto}{texto2}.");
+string subtexto = texto2.Substring(0, 3);
+Console.WriteLine($"{subtexto} es una subcadena de {texto2}");
